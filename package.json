@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:verbose": "node server.js --verbose"
   },
   "name": "koa-stable-blank",
   "version": "1.0.0",
@@ -29,7 +30,7 @@
     "type": "git",
     "url": "https://www.github.com/mattbis/koa-stable-blank.git"
   },
-  "author": "Matthew Bishop <matt.bis.pb@gmail.com>",
+  "author": "Foo Bar <foo.bar@gmail.com>",
   "license": "ISC",
   "description": ""
 }

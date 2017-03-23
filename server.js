@@ -31,18 +31,26 @@ const ENV = process.env.NODE_ENV
 const PORT = parseInt(process.env.PORT,10)
 const TARGET = process.env.npm_lifecycle_event
 
-const flags = {
-  dev:      process.env.NODE_ENV === 'development',
-  staging:  process.env.NODE_ENV === 'staging',
-  prod:     process.env.NODE_ENV === 'production',
-
-  isTestingCommand:       TARGET === 'test',
-
-  verbose:         args.verbose === true,
-  isInvalid:       args.invalid === true,
-  shouldValidate:  args.check   === true
+// meaningful booleans
+// simple object, method. Next a Runtime() constructor. That is optional to sit in front of a server file to
+// handle the environment.
+let flags = {}
+flags.hasEnvironment = process.env.NODE_ENV
+if (flags.hasEnvironment) {
+  flags.dev =     ~process.env.NODE_ENV.indexOf('dev')
+  flags.staging = process.env.NODE_ENV === 'staging'
+  flags.prod =    process.env.NODE_ENV && ~process.env.NODE_ENV.indexOf('prod')
+} else {
+  console.error('invalid environment?')
+  process.exit(1)
 }
+flags.isTestingCommand = TARGET === 'test'
+flags.verbose = args.verbose === true
+flags.isInvalid = args.invalid === true
+flags.shouldValidate = args.check === true
 
-console.timeEnd(API_ID)
+let server = new Koa()
+configure.middleware()
 
+console.timeEnd('init')
 module.exports.server = server
