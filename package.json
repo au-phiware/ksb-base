@@ -1,7 +1,10 @@
 {
   "scripts": {
     "start": "node server.js",
-    "start:verbose": "node server.js --verbose"
+    "start:verbose": "node server.js --verbose",
+    "build:dist": "node bin/build.js dist",
+    "build:release":"node bin/build.js release",
+    "start:nodemon": "NODE_ENV=development PORT=3000 DEBUG=koa-mongo,koa-route nodemon --delay 1 --config nodemon-config.json --watch . -e js,json --exec node -r 'babel-core/register' server.js"
   },
   "name": "koa-stable-blank",
   "version": "1.0.0",
