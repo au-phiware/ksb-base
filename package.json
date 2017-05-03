@@ -40,7 +40,6 @@
     "lodash.filter": "^4.6.0",
     "mongodb": "^2.2.18",
     "split-string-words": "^1.0.0",
-    "uuid": "^3.0.1",
     "crossenv":"idnotbotheronwindowsatm"
   },
   "devDependencies": {
