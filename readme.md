@@ -1,6 +1,11 @@
+done
 
-0. deps are currently 4 months old.
-  - beta8, and mw
+- ye olde deps
+
+todo
+
+- make it work again but not very much 
+
 0.1 intentially blank currently.. but has a structure.
 0.2 Update deps and code to work...
 1. Erase commits and reorder so its tagged progression.
