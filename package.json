@@ -54,6 +54,10 @@
   },
   "scripts": {
     "security:check": "npm i -g nsp && nsp check",
+    "watch:dev": "",
+    "build:bundle": "",
+    "build:staging": "",
+    "build:prod": "",
     "start": "DEBUG=koa-mongo,koa-route node -r 'babel-core/register' server.js",
     "invalid": "npm start -- --invalid",
     "u4": "node lib/uuidv4.js"
