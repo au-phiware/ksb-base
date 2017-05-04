@@ -9,7 +9,7 @@ todo
 - indicate what needs "completing" to make it work.
 - MW choices, sub apps, route - just for one use case.
 problems
-- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0"
+- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0", /koa-falcor
 wont
 - use adventure or curses style fun menus or just a prompt.
 desc
