@@ -10,9 +10,10 @@ todo
 - indicate what needs "completing" to make it work.
 - MW choices, sub apps, route - just for one use case.
 problems
-- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0", /koa-falcor
 wont
 - use adventure or curses style fun menus or just a prompt.
+- no db - too many of them - all need config and debug, library - dao - 
+-- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0", /koa-falcor
 desc
 - eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
 - intentionally blank currently.. but has a structure.
