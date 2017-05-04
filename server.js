@@ -1,4 +1,4 @@
-// Required for async/await, although N7.x.x should work....
+// Required for async/await, although N7.x.x should work.... // TODO marry versions etc
 require('babel-polyfill')
 
-require('lib/server-blank-0.js')
+require('lib/static/server-0.js')
