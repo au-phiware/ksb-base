@@ -10,6 +10,7 @@ todo
 - indicate what needs "completing" to make it work.
 - MW choices, sub apps, route - just for one use case.
 problems
+- dont write a framework at all costs...
 wont
 - use adventure or curses style fun menus or just a prompt.
 - no db - too many of them - all need config and debug, library - dao - 
