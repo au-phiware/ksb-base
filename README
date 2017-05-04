@@ -3,7 +3,8 @@ done
 - ye olde deps
 todo
 - I think im slightly out of date still... need to catchup
-- make it work again but not very much. have mw configured in a nice generalised mechanism so its easily extensible as thats the ground work needed usually and can become messy... 
+- make it work again but not very much. have mw configured in a nice generalised mechanism so its easily extensible as thats the 
+ground work needed usually and can become messy... maybe a dot path config of sets, for each category, or just dot path big list
 - Erase commits and reorder so its tagged progression.
 - try to leave as agnostic as possible.
 - Minimise files.... but keep nice blank structure.
