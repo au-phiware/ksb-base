@@ -1,4 +1,5 @@
 # simple blank with shrink-wrapped minimal deps
+## Ignore for now as dirty committing. but you can easily make it work.. if you just correct missing files, and put in middleware config, then just load controllers, and anything else... 
 desc
 - eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
 - intentionally blank currently.. but has a structure.
