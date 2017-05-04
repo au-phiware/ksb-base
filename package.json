@@ -27,7 +27,6 @@
     "koa-jwt": "^3.2.1",
     "koa-lusca": "^2.2.0",
     "koa-maxrequests": "^1.0.0",
-    "koa-mongo": "^1.1.0",
     "koa-morgan": "^1.0.1",
     "koa-response-time": "^2.0.0",
     "koa-route": "^3.2.0",

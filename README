@@ -8,7 +8,9 @@ todo
 - Minimise files.... but keep nice blank structure.
 - indicate what needs "completing" to make it work.
 - MW choices, sub apps, route - just for one use case.
-wont 
+problems
+- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0"
+wont
 - use adventure or curses style fun menus or just a prompt.
 desc
 - eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
