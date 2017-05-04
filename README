@@ -1,24 +1,5 @@
 # simple blank with shrink-wrapped minimal deps
-done
-- ye olde deps
-todo
-- make it work again but not very much.
-- Erase commits and reorder so its tagged progression.
-- try to leave as agnostic as possible.
-- Minimise files.... but keep nice blank structure.
-- indicate what needs "completing" to make it work.
-- MW choices, sub apps, route - just for one use case.
-problems
-- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     "koa-mongo": "^1.1.0"
-wont
-- use adventure or curses style fun menus or just a prompt.
-desc
-- eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
-- intentionally blank currently.. but has a structure.
-- sub apps make flow control and lifecycle too complicated in my experience.
-- only include having lots of routes to make apis(s) if it was not a microservice.
-future
-- any functional service style helpers.
-- not a blank anymore.. need to have this cloned as part of another repo.
-why
-- intend to use koa where posssible with Node, for apis, ms, and anything else; as I really like it.
+## Ignore for now as dirty committing. but you can easily make it work.. if you just correct missing files, 
+and put in middleware config, then just load controllers, and anything else... 
+- each mw config will be sep to org instance anyhow... for security etc or project dep.
+- intend to use Koa where posssible with Node, for apis, ms, and anything else; as I really like it. 
