@@ -6,15 +6,17 @@ const argv = process.argv.slice(2)
 // TODO shimmmmmey
 let args = minimist(argv,{
   alias:{
+    // shortcuts
     'verbose':'v',
-    'check':'c'
+    'check':'c',
+    'invalid':'i'
   },
   default:{
     // be noisy ofc !
     verbose: true,
     // set to false to not validate schemas
     check: true,
-    // invalid data
+    // invalid data - for testing
     invalid: false
   }
 })

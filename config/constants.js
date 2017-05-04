@@ -1,4 +1,4 @@
-// lets discuss these settings.... and how to vary with dot path config system... 
+// lets discuss these settings.... and how to vary with dot path config system...
 
 export const STRICT_PARSE_DEFAULT_JSON = {
   enabledTypes: ['json'],
@@ -15,6 +15,7 @@ export const STRICT_PARSE_DEFAULT_JSON = {
     throw err
   }
 }
+
 export const TEXT_COMPRESS_FILTER = {
   filter: function (content_type) {
     return /text/i.test(content_type)
