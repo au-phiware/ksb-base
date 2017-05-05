@@ -11,7 +11,7 @@ export const STRICT_PARSE_DEFAULT_JSON = {
   strict: true,
   onerror: (err, ctx) => {
     log.warn(`CO:BODY:STRICT-PARSE: dirty payload: ${ctx.request.ip} ${ctx.request.href}`)
-    ctx.status = 422
+    ctx.status = 400
     throw err
   }
 }
