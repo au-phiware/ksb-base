@@ -1,3 +1,5 @@
+const zlib = require('zlib')
+
 // lets discuss these settings.... and how to vary with dot path config system...
 
 export const STRICT_PARSE_DEFAULT_JSON = {
@@ -21,5 +23,5 @@ export const TEXT_COMPRESS_FILTER = {
     return /text/i.test(content_type)
   },
   threshold: 2048,
-  flush: z.Z_SYNC_FLUSH
+  flush: zlib.constants.Z_SYNC_FLUSH
 }
