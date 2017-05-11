@@ -1,0 +1,30 @@
+# simple blank with shrink-wrapped minimal deps
+done
+- ye olde deps
+todo
+- I think im slightly out of date still... need to catchup
+- make it work again but not very much. have mw configured in a nice generalised mechanism so its easily extensible as
+thats the ground work needed usually and can become messy... maybe a dot path config of sets, for each category, or
+just dot path big list
+- Erase commits and reorder so its tagged progression.
+- try to leave as agnostic as possible.
+- Minimise files.... but keep nice blank structure.
+- indicate what needs "completing" to make it work.
+- MW choices, sub apps, route - just for one use case.
+problems
+- dont write a framework at all costs...
+wont
+- use adventure or curses style fun menus or just a prompt.
+- no db - too many of them - all need config and debug, library - dao -
+-- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     , /koa-falcor
+desc
+- eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
+- intentionally blank currently.. but has a structure.
+- sub apps make flow control and lifecycle too complicated in my experience.
+- only include having lots of routes to make apis(s) if it was not a microservice.
+future
+- any functional service style helpers.
+- not a blank anymore.. need to have this cloned as part of another repo.
+why
+- must be as non evolved but grounded as possible.. although have evolved flavours...
+- almost any problem was easy to solve. and the es7 approach makes life very easy.
