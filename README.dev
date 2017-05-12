@@ -18,7 +18,7 @@ wont
 - no db - too many of them - all need config and debug, library - dao -
 -- making it mongo or anything else and then a tree of mw, or config... hmmm...  //     , /koa-falcor
 desc
-- eventual starter.. slightly opinionated and for mongo.. Using only stable simple Middleware.
+- eventual starter.. now the aim is to make it easily configurable to any db without having a orm or anything else just this part....
 - intentionally blank currently.. but has a structure.
 - sub apps make flow control and lifecycle too complicated in my experience.
 - only include having lots of routes to make apis(s) if it was not a microservice.
