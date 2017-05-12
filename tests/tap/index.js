@@ -1,2 +1,1 @@
-
-
+const test = require('tape')
