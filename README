@@ -1,2 +1,8 @@
 # simple blank with shrink-wrapped minimal deps
 # will setup base to be extended.
+
+currently quite empty, as I will extend this with flavouring and also generalise quite a lot of boring stupid stuff that 
+sometimes is needed... but in a way that is as encapsulated.. at least this is my current thinking.. I need to pause and 
+consider the galaxy and universe solutions...
+
+And also a simple extension of just micro modules.
