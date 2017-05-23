@@ -1,5 +1,7 @@
 # simple blank with shrink-wrapped minimal deps
 # will setup base to be extended.
 
-currently quite empty, as I will extend this with flavouring and also generalise as much as possible so its easy to move
-from base to progression.
+currently quite empty, as mw config should be automatic, 
+as I will extend this with flavouring and also generalise as much as possible so its easy to move
+from base to progression
+
