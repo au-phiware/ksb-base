@@ -1,3 +1,3 @@
 module.exports = function() {
-  // deconstructed code blob
+  // code blob - in bundlified order
 }
