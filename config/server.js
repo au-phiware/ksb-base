@@ -1,10 +1,12 @@
-let args = {
-  alias:{
-    // shortcuts
-    'verbose':'v'
-  },
-default:{
-  // always verbose
-  verbose: true
-}
+export const server = {
+  args: {
+    alias:{
+     // shortcuts
+     'verbose':'v'
+    },
+    default:{
+     // always verbose
+     verbose: true
+    }
+  }
 }
