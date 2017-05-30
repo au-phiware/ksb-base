@@ -5,3 +5,4 @@
 - only simple middleware 
 - limited deps
 - provide mechanisms to do a lot of _stuff_ that typically has to happen in the modern world... 
+- allow flavouring for future service types
