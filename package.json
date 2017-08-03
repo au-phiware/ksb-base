@@ -41,8 +41,7 @@
     "async": "^2.1.4",
     "lodash.filter": "^4.6.0",
     "mongodb": "^2.2.18",
-    "split-string-words": "^1.0.0",
-    "crossenv":"idnotbotheronwindowsatm"
+    "split-string-words": "^1.0.0"
   },
   "devDependencies": {
     "chai": "https://registry.npmjs.org/chai/-/chai-3.5.0.tgz",
